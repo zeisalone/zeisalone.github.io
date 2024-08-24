@@ -1,0 +1,166 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1b2025; /* Fundo do header mais escuro */
+  color: #f0f0f0; /* Texto claro */
+  padding: 20px 50px;
+  box-shadow: 0px 4px 2px -2px gray;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  transition: padding 0.3s;
+}
+
+.header-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.profile-pic {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.name-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  margin: 0;
+  font-size: 28px;
+}
+
+.titles {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+.titles span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+}
+
+.location, .email {
+  font-size: 16px;
+  color: #bbbbbb;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.location svg, .email svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  fill: #f0f0f0;
+}
+
+.email a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.email a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links a {
+  color: #f0f0f0;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links a svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  fill: #f0f0f0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; 
+  right: 0; 
+  background-color: #1b2025;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+  padding: 10px;
+  z-index: 1000;
+  display: none;
+}
+
+.dropdown-menu.show-dropdown {
+  display: block;
+}
+.dropdown-menu a {
+  color: #f0f0f0;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+  background-color: #444c56;
+}
+
+.show-dropdown {
+  display: block;
+}
+.cv-container {
+  position: relative;
+}
+
+.cv-button {
+  background-color: transparent;
+  border: none;
+  color: #f0f0f0;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.cv-button svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  fill: #f0f0f0;
+}
+
+.cv-button:hover {
+  text-decoration: underline;
+}

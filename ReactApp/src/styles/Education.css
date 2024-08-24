@@ -1,0 +1,74 @@
+.education-section {
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.education-section h1 {
+  color: #282c34;
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #444c56;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+.education-details {
+  flex: 1;
+}
+
+.education-photo1 img {
+  max-width: 150px;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-top: 80px;
+}
+.education-photo2 img {
+  max-width: 200px;
+  border-radius: 8px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.designation {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white;
+}
+
+.university {
+  color:  #000000;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.dates {
+  font-size: 1em;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.profiles-title {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-top: 15px;
+  margin-bottom: 8px;
+}

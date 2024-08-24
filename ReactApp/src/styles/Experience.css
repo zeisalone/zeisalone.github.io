@@ -1,0 +1,90 @@
+.experience-section {
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.experience-section h1 {
+  color: #282c34;
+  margin-bottom: 20px;
+}
+
+.experience-section p {
+  margin-bottom: 40px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #444c56;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.experience-details {
+  flex: 1;
+}
+
+.experience-photo1 img {
+  max-width: 350px;
+  border-radius: 8px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.experience-photo2 img {
+  max-width: 300px;
+  border-radius: 8px;
+  margin-top: 45px;
+  margin-left: 30px;
+}
+
+.designation {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white;
+  margin-top: 3px;
+}
+
+.company {
+  color:  #000101;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-top: 3px;
+}
+
+.dates {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: -5px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.notes {
+  color: #adb5bd;
+  margin-top: 10px;
+}
+
+.notes li {
+  margin-bottom: 5px;
+}

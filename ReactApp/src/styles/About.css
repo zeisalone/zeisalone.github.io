@@ -1,0 +1,76 @@
+.about-section {
+  padding-top: 200px; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-section h1 {
+  color: #f0f0f0; 
+  margin-bottom: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #2a3138;
+  color: #f0f0f0;
+  padding: 20px 20px 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.about-details {
+  flex: 1;
+}
+
+.about-photo img {
+  max-width: 100px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.computer-icon {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  fill: #f0f0f0;
+}
+
+.sports-icon {
+  margin-top: 20px;
+  width: 130px;
+  height: 130px;
+  margin-left: 10px;
+  fill: #f0f0f0;
+}
+
+.sub-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #f0f0f0; 
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.text {
+  color: #d0d0d0;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
