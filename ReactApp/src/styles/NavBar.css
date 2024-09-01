@@ -95,3 +95,38 @@
 .nav-link-button:hover {
   color: #007bff;
 }
+
+@media (max-width: 768px) {
+  .nav-bar {
+    top: 100px;
+    padding: 0px 0;
+    height: 40px;
+  }
+
+  .nav-links li {
+    margin: 0 10px;
+  }
+
+  .nav-link-button {
+    font-size: 9px;
+    padding: 1px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .nav-bar {
+    top: 80px;
+    padding: 0px 0;
+    height: 40px;
+  }
+
+  .nav-links li {
+    margin: 0 8px; 
+  }
+
+  .nav-link-button {
+    font-size: 7px;
+    padding: 1px 0;
+  }
+}
+

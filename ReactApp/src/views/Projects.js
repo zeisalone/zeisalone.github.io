@@ -9,9 +9,12 @@ function Projects() {
   return (
     <section id="projects" className="projects-section">
       <div className="box-container">
-        <div className="box">
+        <div className="project-box">
           <div className="project-details">
-            <h2 className="designation">Mobile App</h2>
+            <div className="title-with-icon9">
+              <img src={mobileAppPhoto} alt="Mobile App" className="project-photo1" />
+              <h2 className="designation">Mobile App</h2>
+            </div>
             <p className="company" data-text="University Project">University Project</p>
             <div className="project-link">
               <a href="https://github.com/JoseBambora/Projeto-TDS" target="_blank" rel="noopener noreferrer">
@@ -30,14 +33,14 @@ function Projects() {
               </li>
             </ul>
           </div>
-          <div className="project-photo1">
-            <img src={mobileAppPhoto} alt="Mobile App" />
-          </div>
         </div>
 
-        <div className="box">
+        <div className="project-box">
           <div className="project-details">
-            <h2 className="designation">Online Library</h2>
+            <div className="title-with-icon9">
+              <img src={onlineLibraryPhoto} alt="Online Library" className="project-photo2" />
+              <h2 className="designation">Online Library</h2>
+            </div>
             <p className="company" data-text="University Project">University Project</p>
             <div className="project-link">
               <a href="https://github.com/mirelois/GenericOnlineLibrary" target="_blank" rel="noopener noreferrer">
@@ -56,14 +59,14 @@ function Projects() {
               </li>
             </ul>
           </div>
-          <div className="project-photo2">
-            <img src={onlineLibraryPhoto} alt="Online Library" />
-          </div>
         </div>
 
-        <div className="box">
+        <div className="project-box">
           <div className="project-details">
-            <h2 className="designation">Discord Bot</h2>
+            <div className="title-with-icon9">
+              <img src={discordBotPhoto} alt="Discord Bot" className="project-photo3" />
+              <h2 className="designation">Discord Bot</h2>
+            </div>
             <p className="company" data-text="Personal Project">Personal Project</p>
             <div className="project-link">
               <a href="https://github.com/zeisalone/TheDeleterBot" target="_blank" rel="noopener noreferrer">
@@ -82,11 +85,7 @@ function Projects() {
               </li>
             </ul>
           </div>
-          <div className="project-photo3">
-            <img src={discordBotPhoto} alt="Discord Bot" />
-          </div>
         </div>
-
       </div>
     </section>
   );

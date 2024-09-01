@@ -33,7 +33,7 @@
 
 .skills-list1 {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 55px;
 }
 
@@ -101,4 +101,65 @@
   font-size: 1.2em;
   color: #adb5bd;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .skills-section1 {
+    padding-top: 150px;
+  }
+
+  .skills-title1 {
+    font-size: 1.2em;
+  }
+
+  .skills-list1 {
+    gap: 35px;
+  }
+
+  .skill-card1 {
+    margin-bottom: 20px;
+  }
+
+  .percent1 svg circle {
+    stroke-width: 7;
+  }
+  .num1 h2 {
+    font-size: 30px;
+  }
+
+  .num1 h2 span {
+    font-size: 18px;
+  }
+
+  .text1 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 640px) {
+  .skills-section1 {
+    padding-top: 130px;
+  }
+
+  .skills-title1 {
+    font-size: 1em;
+  }
+
+  .skills-list1 {
+    gap: 25px;
+  }
+  .percent1 svg circle {
+    stroke-width: 7;
+  }
+  .num1 h2 {
+    font-size: 24px;
+  }
+
+  .num1 h2 span {
+    font-size: 16px;
+  }
+
+  .text1 {
+    font-size: 0.8em;
+  }
 }

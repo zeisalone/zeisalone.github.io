@@ -2,8 +2,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #1b2025; /* Fundo do header mais escuro */
-  color: #f0f0f0; /* Texto claro */
+  background-color: #1b2025; 
+  color: #f0f0f0; 
   padding: 20px 50px;
   box-shadow: 0px 4px 2px -2px gray;
   z-index: 1000;
@@ -56,8 +56,11 @@
 
 .contact-info {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
 }
+
 
 .location, .email {
   font-size: 16px;
@@ -75,7 +78,7 @@
 }
 
 .email a {
-  color: #f0f0f0;
+  color: #f0f0f0 !important;
   text-decoration: none;
 }
 
@@ -86,11 +89,19 @@
 .social-links {
   display: flex;
   flex-direction: column;
+  align-items: flex-start; 
+}
+
+.social-links a, .cv-container {
+  margin-bottom: 10px;
+}
+
+.social-links a:last-child, .cv-container {
+  margin-bottom: 0;
 }
 
 .social-links a {
   color: #f0f0f0;
-  margin-bottom: 10px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -105,6 +116,32 @@
   height: 20px;
   margin-right: 8px;
   fill: #f0f0f0;
+}
+
+.cv-container {
+  position: relative;
+}
+
+.cv-button {
+  background-color: transparent;
+  border: none;
+  color: #f0f0f0;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.cv-button svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  fill: #f0f0f0;
+}
+
+.cv-button:hover {
+  text-decoration: underline;
 }
 
 .dropdown-menu {
@@ -123,6 +160,7 @@
 .dropdown-menu.show-dropdown {
   display: block;
 }
+
 .dropdown-menu a {
   color: #f0f0f0;
   text-decoration: none;
@@ -135,32 +173,124 @@
   background-color: #444c56;
 }
 
-.show-dropdown {
-  display: block;
-}
-.cv-container {
-  position: relative;
+@media (max-width: 768px) {
+  .header {
+    padding: 8px 11px;
+  }
+
+  .profile-section {
+    margin-right: 20px;
+  }
+
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .social-links {
+    flex-direction: row; 
+    align-items: center; 
+  }
+
+  .social-links a, .cv-container {
+    margin-right: 10px; 
+    margin-bottom: 0;
+  }
+
+  .social-links a:last-child, .cv-container {
+    margin-right: 0;
+  }
+  .contact-info {
+    gap: 10px;
+  }
+
+  .profile-pic {
+    width: 75px;
+    height: 75px;
+  }
+
+  .name {
+    font-size: 20px; 
+  }
+
+  .titles {
+    font-size: 12px;
+  }
+
+  .location, .email {
+    font-size: 12px;
+  }
+
+  .location svg, .email svg {
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+  }
+
+  .social-links a svg, .cv-button svg {
+    width: 8px;
+    height: 8px;
+  }
+
+  .social-links a, .cv-container {
+    margin-right: 8px; 
+  }
+
+  .social-links {
+    font-size: 10px;
+  }
 }
 
-.cv-button {
-  background-color: transparent;
-  border: none;
-  color: #f0f0f0;
-  font-size: 1em;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  padding: 0;
-  margin-bottom: 10px;
+@media (max-width: 680px) {
+  .header {
+    padding: 5px 10px; 
+  }
+
+  .profile-section {
+    margin-right: 18px; 
+  }
+  .profile-pic {
+    width: 70px;
+    height: 70px;
+  }
+
+  .header-content {
+    gap: 6px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .titles {
+    font-size: 8px; 
+  }
+
+  .location, .email {
+    font-size: 10px; 
+  }
+
+  .location svg, .email svg {
+    width: 8px;
+    height: 8px;
+    margin-right: 4px;
+  }
+
+  .social-links a svg, .cv-button svg {
+    width: 8px;
+    height: 8px;
+  }
+
+  .social-links a, .cv-container {
+    margin-right: 8px; 
+  }
+
+  .social-links {
+    font-size: 8px;
+  }
+  .location, .email {
+    font-size: 8px;
+  }
 }
 
-.cv-button svg {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-  fill: #f0f0f0;
-}
-
-.cv-button:hover {
-  text-decoration: underline;
-}

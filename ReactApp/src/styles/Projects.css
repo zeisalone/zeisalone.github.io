@@ -19,9 +19,9 @@
   gap: 20px;
 }
 
-.box {
+.project-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: flex-start;
   background-color: #444c56;
   color: white;
@@ -29,7 +29,8 @@
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.box:hover {
+
+.project-box:hover {
   transform: translateY(-5px);
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -38,30 +39,32 @@
   flex: 1;
 }
 
-.project-photo1 img {
-  max-width: 200px;
-  border-radius: 8px;
-  margin-left: 20px;
-  margin-top: 55px;
-}
-.project-photo2 img {
-  max-width: 120px;
-  border-radius: 8px;
-  margin-left: 20px;
-  margin-top: 75px;
+
+.title-with-icon9 {
+  display: flex;
+  align-items: center;
+  gap: 15px; 
 }
 
-.project-photo3 img {
-  max-width: 150px;
-  border-radius: 8px;
-  margin-left: 34px;
-  margin-top: 65px;
+.title-with-icon9, .project-photo1 {
+  width: 60px;
+  height: 60px;
+}
+
+.title-with-icon9, .project-photo2 {
+  width: 60px;
+  height: 60px;
+}
+.title-with-icon9, .project-photo3 {
+  width: 60px;
+  height: 60px;
 }
 
 .designation {
   font-size: 1.4em;
   font-weight: bold;
   color: white;
+  white-space: nowrap;
 }
 
 .company {
@@ -75,7 +78,6 @@
   color: #f6f6f6;
   font-size: 1em;
   text-decoration: none;
-
 }
 
 .project-link a:hover {
@@ -95,8 +97,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  padding: 2px 20px; 
-  gap: 8px; 
+  padding: 2px 20px;
+  gap: 8px;
   background-color: #181717;
   outline: 2px #181717 solid;
   outline-offset: -2px;
@@ -118,7 +120,7 @@
 .button img, .button svg {
   width: 20px;
   height: 20px;
-  vertical-align: middle; 
+  vertical-align: middle;
   transition: 400ms;
 }
 
@@ -132,5 +134,102 @@
 
 .button:hover img, .button:hover svg {
   filter: invert(100%);
+}
+@media (max-width: 768px) {
+  .projects-section {
+    padding-top: 150px;
+  }
+
+  .project-box {
+    padding: 15px;
+  }
+
+  .title-with-icon9 .project-photo1,
+  .title-with-icon9 .project-photo2,
+  .title-with-icon9 .project-photo3 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .projects-section .designation {
+    font-size: 1em;
+  }
+
+  .projects-section .company {
+    font-size: 0.8em;
+  }
+
+  .projects-section .project-link a {
+    font-size: 0.7em;
+  }
+
+  .projects-section .notes {
+    font-size: 0.65em;
+  }
+
+  .projects-section .button {
+    padding: 2px 11px;
+    gap: 6px;
+    min-width: 80px;
+  }
+
+  .projects-section .button .text {
+    font-size: 0.7em;
+  }
+
+  .projects-section .button img, 
+  .projects-section .button svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .projects-section {
+    padding-top: 130px;
+  }
+
+  .project-box {
+    padding: 12px;
+  }
+
+  .title-with-icon9 .project-photo1,
+  .title-with-icon9 .project-photo2,
+  .title-with-icon9 .project-photo3 {
+    width: 45px;
+    height: 45px;
+  }
+
+  .projects-section .designation {
+    font-size: 0.9em;
+  }
+
+  .projects-section .company {
+    font-size: 0.8em;
+  }
+
+  .projects-section .project-link a {
+    font-size: 0.7em;
+  }
+
+  .projects-section .notes {
+    font-size: 0.65em;
+  }
+
+  .projects-section .button {
+    padding: 2px 10px;
+    gap: 5px;
+    min-width: 70px;
+  }
+
+  .projects-section .button .text {
+    font-size: 0.6em;
+  }
+
+  .projects-section .button img, 
+  .projects-section .button svg {
+    width: 12px;
+    height: 12px;
+  }
 }
 

@@ -4,56 +4,48 @@
   padding-right: 20px;
 }
 
-.education-section h1 {
-  color: #282c34;
-  margin-bottom: 20px;
-}
-
-.box-container {
+.education-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.box {
+.education-box {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  flex-direction: column;
   background-color: #444c56;
+  align-items: flex-start; 
   color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.box:hover {
+
+.education-box:hover {
   transform: translateY(-5px);
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
 }
-.education-details {
-  flex: 1;
+
+.title-with-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.education-photo1 img {
-  max-width: 150px;
-  border-radius: 8px;
-  margin-left: 20px;
-  margin-top: 80px;
+.title-with-icon .icon {
+  width: 65px;
+  height: 35px;
 }
-.education-photo2 img {
-  max-width: 200px;
-  border-radius: 8px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
 .designation {
   font-size: 1.4em;
+  margin-top: 20px;
   font-weight: bold;
   color: white;
 }
 
 .university {
-  color:  #000000;
+  color: #000000;
   font-weight: bold;
   font-size: 1.1em;
   margin-bottom: 8px;
@@ -71,4 +63,66 @@
   color: rgb(255, 255, 255);
   margin-top: 15px;
   margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+  .education-section {
+    padding-top: 150px;
+  }
+
+  .education-box {
+    padding: 15px;
+  }
+
+  .education-section .title-with-icon .icon {
+    width: 65px;
+    height: 35px;
+  }
+
+  .education-section .designation {
+    font-size: 1em;
+  }
+
+  .university {
+    font-size: 0.8em;
+  }
+
+  .profiles-title {
+    font-size: 0.8em;
+  }
+
+  .dates {
+    font-size: 0.7em;
+  }
+
+  .notes {
+    font-size: 0.7em;
+  }
+}
+
+@media (max-width: 640px) {
+  .education-section {
+    padding-top: 130px;
+  }
+
+  .education-box {
+    padding: 12px;
+  }
+
+  .education-section .title-with-icon .icon {
+    width: 60px;
+    height: 30px;
+  }
+
+  .education-section .designation {
+    font-size: 0.8em;
+    word-wrap: break-word;
+  }
+
+  .university {
+    font-size: 0.7em;
+  }
+
+  .profiles-title {
+    font-size: 0.7em;
+  }
 }

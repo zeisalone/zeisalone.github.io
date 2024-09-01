@@ -1,17 +1,20 @@
 import React from 'react';
 import '../styles/Experience.css';
 import camaraPhoto from '../assets/camaraBraga.png';
-import refereePhoto from '../assets/RefereePic.jpg';
+import refereePhoto from '../assets/ScoreImageHandler.png';
 import { ReactComponent as DateIcon } from '../assets/date.svg';
 
 function Experience() {
   return (
     <section id="experience" className="experience-section">
-      <div className="box-container">
-        <div className="box">
+      <div className="experience-box-container">
+        <div className="experience-box">
           <div className="experience-details">
-            <h2 className="designation">Football Referee</h2>
-            <p className="company"data-text="Associação de Futebol de Braga">Associação de Futebol de Braga</p>
+            <div className="title-with-icon7">
+              <img src={refereePhoto} alt="Football Referee" className="experience-photo1" />
+              <h2 className="designation">Football Referee</h2>
+            </div>
+            <p className="company" data-text="Associação de Futebol de Braga">Associação de Futebol de Braga</p>
             <div className="dates">
               <DateIcon className="icon" /> Jan 2022 – Ongoing
             </div>
@@ -22,14 +25,14 @@ function Experience() {
               <li>Worked closely with other referees and officials, which helped me improve my team working skills</li>
             </ul>
           </div>
-          <div className="experience-photo1">
-            <img src={refereePhoto} alt="Football Referee" />
-          </div>
         </div>
 
-        <div className="box">
+        <div className="experience-box">
           <div className="experience-details">
-            <h2 className="designation">IT Support Technician</h2>
+            <div className="title-with-icon7">
+              <img src={camaraPhoto} alt="IT Support Technician" className="experience-photo2" />
+              <h2 className="designation">IT Support Technician</h2>
+            </div>
             <p className="company" data-text="Câmara Municipal de Braga">Câmara Municipal de Braga</p>
             <div className="dates">
               <DateIcon className="icon" /> June 2024
@@ -40,11 +43,8 @@ function Experience() {
               <li>Helped me learn more about informatic systems and how the political process works.</li>
             </ul>
           </div>
-          <div className="experience-photo2">
-            <img src={camaraPhoto} alt="IT Support Technician" />
-          </div>
         </div>
-      </div> 
+      </div>
     </section>
   );
 }
