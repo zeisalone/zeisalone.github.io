@@ -125,4 +125,41 @@
   .profiles-title {
     font-size: 0.7em;
   }
+
+
+  @media (max-width: 515px) {
+    .education-section {
+      padding-top: 120px;
+    }
+  
+    .education-box {
+      padding: 12px;
+    }
+  
+    .education-section .title-with-icon .icon {
+      width: 60px;
+      height: 30px;
+    }
+  
+    .education-section .designation {
+      font-size: 0.60em;
+      word-wrap: break-word;
+    }
+  
+    .university {
+      font-size: 0.6em;
+    }
+  
+    .profiles-title {
+      font-size: 0.6em;
+    }
+    .education-section .dates {
+      font-size: 0.5em;
+    }
+  
+    .education-section .notes {
+      font-size: 0.5em;
+    }
+  
+  }
 }
