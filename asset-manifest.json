@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.95292351.css",
-    "main.js": "/static/js/main.8ac8c356.js",
+    "main.css": "/static/css/main.3613246b.css",
+    "main.js": "/static/js/main.9a131588.js",
     "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
     "static/media/ScoreImageHandler.png": "/static/media/ScoreImageHandler.b4c21618ca6d7b3350c7.png",
     "static/media/Deleter.jpg": "/static/media/Deleter.2b0135054b12ed978b58.jpg",
     "static/media/camaraBraga.png": "/static/media/camaraBraga.c748ad1c1a46c17c8614.png",
     "static/media/profile.png": "/static/media/profile.aa99118d0ec52f7e6978.png",
+    "static/media/ieee.png": "/static/media/ieee.05e4d6bcd521422e9ab2.png",
     "static/media/Coolreads.png": "/static/media/Coolreads.23bd59b36ff81f7d5e41.png",
     "static/media/BraGuia.png": "/static/media/BraGuia.389193ec5122ae199793.png",
     "static/media/pdflogo.svg": "/static/media/pdflogo.24f45288a3bb4692c1f4bf578e2e3ca8.svg",
@@ -19,12 +20,12 @@
     "index.html": "/index.html",
     "static/media/email.svg": "/static/media/email.4aea3fadcfd66083c2d347aa47928751.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.95292351.css.map": "/static/css/main.95292351.css.map",
-    "main.8ac8c356.js.map": "/static/js/main.8ac8c356.js.map",
+    "main.3613246b.css.map": "/static/css/main.3613246b.css.map",
+    "main.9a131588.js.map": "/static/js/main.9a131588.js.map",
     "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.95292351.css",
-    "static/js/main.8ac8c356.js"
+    "static/css/main.3613246b.css",
+    "static/js/main.9a131588.js"
   ]
 }
