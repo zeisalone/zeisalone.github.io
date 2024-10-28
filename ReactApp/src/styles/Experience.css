@@ -47,6 +47,11 @@
 .title-with-icon7 .experience-photo2 {
   width: 60px;
   height: 40px;
+  
+}
+.title-with-icon7 .experience-photo3 {
+  width: 75px;
+  height: 40px;
 }
 .title-with-icon7 {
   display: flex;
@@ -109,9 +114,13 @@
     width: 50px;
     height: 35px;
   }
+  .title-with-icon7 .experience-photo3 {
+    width: 55px;
+    height: 30px;
+  }
 
   .experience-section .designation {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .experience-section .company {
@@ -147,18 +156,18 @@
   }
 
   .experience-section .designation {
-    font-size: 0.9em;
-  }
-
-  .experience-section .company {
-    font-size: 0.8em;
-  }
-
-  .experience-section .dates {
     font-size: 0.7em;
   }
 
-  .experience-section .notes {
+  .experience-section .company {
     font-size: 0.65em;
+  }
+
+  .experience-section .dates {
+    font-size: 0.6em;
+  }
+
+  .experience-section .notes {
+    font-size: 0.6em;
   }
 }

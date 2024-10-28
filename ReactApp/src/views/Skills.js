@@ -37,6 +37,7 @@ function Skills() {
             <Skill name="Scikit-Learn" level="75" />
             <Skill name="Docker" level="70"/>
             <Skill name="Postgres" level="65" />
+            <Skill name="Spark" level="65" /> 
             <Skill name="Cloud" level="65"/>
             <Skill name="Wildfly" level="60" />
             <Skill name="OpenGL" level="55" />

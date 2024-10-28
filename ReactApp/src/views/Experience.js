@@ -2,12 +2,31 @@ import React from 'react';
 import '../styles/Experience.css';
 import camaraPhoto from '../assets/camaraBraga.png';
 import refereePhoto from '../assets/ScoreImageHandler.png';
+import ieeePhoto from '../assets/ieee.png'
 import { ReactComponent as DateIcon } from '../assets/date.svg';
 
 function Experience() {
   return (
     <section id="experience" className="experience-section">
       <div className="experience-box-container">
+      <div className="experience-box">
+        <div className="experience-details">
+          <div className="title-with-icon7">
+            <img src={ieeePhoto} alt="IEEE Membership Branch" className="experience-photo3" />
+            <h2 className="designation">Membership Branch</h2>
+          </div>
+          <p className="company" data-text="IEEE - Universidade do Minho">IEEE - Universidade do Minho</p>
+          <div className="dates">
+            <DateIcon className="icon" /> Oct 2024 – Ongoing
+          </div>
+          <ul className="notes">
+            <li>I help organize various activities, both internally for group members and for all students at Universidade do Minho.</li>
+            <li>Contributed to organizing the Engineering Olympics, a large event that brings students together for hands-on and team challenges.</li>
+            <li>Assisted in coordinating volunteering activities, strengthening IEEE's social impact within the local community and the university.</li>
+            <li>This experience has been incredible for enhancing my organizational and collaboration skills and has allowed me to work closely with people who are passionate about technology and innovation.</li>
+          </ul>
+        </div>
+      </div>
         <div className="experience-box">
           <div className="experience-details">
             <div className="title-with-icon7">
