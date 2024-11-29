@@ -38,7 +38,7 @@ function About() {
               <h2 className="sub-title">Passion for Sports</h2>
             </div>
             <p className="text">
-              Sports have always been a significant part of my life. I have been practicing federated karate since 2008 and have tried my hand at other sports as well. Currently, I also go to the gym regularly. Although I love football, let's just say my skills on the field are best described as having "two left feet." Nevertheless, my passion for the game led me to become a football referee, allowing me to stay connected to the sport I love.
+              Sports have always been a significant part of my life. I have been practicing federated karate since 2008 and have tried my hand at other sports as well. Currently, I also go to the gym regularly. Although I love football, let's just say my skills on the field are best described as having "two left feet." Nevertheless, my passion for the game led me to become a football referee, allowing me to stay connected to the sport I love. I also recently became an assistant in an under-13 football team.
             </p>
             <p className="text">
               I am passionate about various types of sports, including basketball, football, and martial arts (like MMA). I also enjoy playing sports video games, simulation games, and fighting games, among others.

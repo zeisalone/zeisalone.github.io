@@ -91,7 +91,7 @@ function Projects() {
           <div className="project-details">
             <div className="title-with-icon9">
               <img src={EngagePhoto} alt="Social Media Post Manager" className="project-photo3" />
-              <h2 className="designation">Social Media Post Manager + CRM</h2>
+              <h2 className="designation">Customer Relationship Manager + Marketing Campaign Manager</h2>
             </div>
             <p className="company" data-text="Personal Project">University + Company project</p>
             <div className="project-link">

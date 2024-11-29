@@ -53,6 +53,10 @@
   width: 65px;
   height: 30px;
 }
+.title-with-icon7 .experience-photo4 {
+  width: 50px;
+  height: 50px;
+}
 .title-with-icon7 {
   display: flex;
   align-items: center;
@@ -157,6 +161,10 @@
   .title-with-icon7 .experience-photo3 {
     width: 45px;
     height: 20px;
+  }
+  .title-with-icon7 .experience-photo4 {
+    width: 35px;
+    height: 35px;
   }
 
   .experience-section .designation {
