@@ -21,13 +21,13 @@
 
 .project-box {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: column;
   background-color: #444c56;
-  color: white;
+  color: #f0f0f0;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-box:hover {
@@ -232,4 +232,52 @@
     height: 12px;
   }
 }
+@media (max-width: 515px) {
+  .projects-section {
+    padding-top: 120px;
+  }
 
+  .project-box {
+    padding: 12px;
+  }
+
+  .title-with-icon9 .project-photo1,
+  .title-with-icon9 .project-photo2,
+  .title-with-icon9 .project-photo3 {
+    width: 40px;
+    height: 40px;
+  }
+
+  .projects-section .designation {
+    font-size: 0.6em;
+  }
+
+  .projects-section .company {
+    font-size: 0.55em;
+  }
+
+  .projects-section .project-link a {
+    font-size: 0.55em;
+  }
+
+  .projects-section .notes {
+    font-size: 0.50em;
+  }
+
+  .projects-section .button {
+    padding: 2px 8px;
+    gap: 5px;
+    min-width: 70px;
+  }
+
+  .projects-section .button .text {
+    font-size: 0.55em;
+    margin-bottom: 5px;
+  }
+
+  .projects-section .button img, 
+  .projects-section .button svg {
+    width: 10px;
+    height: 10px;
+  }
+}

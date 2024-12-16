@@ -92,7 +92,7 @@ function Experience() {
               Banco Alimentar & Liga Portuguesa Contra o Cancro
             </p>
             <div className="dates">
-              <DateIcon className="icon" /> [Start Date] – Ongoing
+              <DateIcon className="icon" /> 2018 – Ongoing
             </div>
             <ul className="notes">
               <li>Regularly participate in events and activities supporting local communities, including food drives and awareness campaigns.</li>

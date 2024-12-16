@@ -9,10 +9,6 @@
   margin-bottom: 20px;
 }
 
-.experience-section p {
-  margin-bottom: 40px;
-}
-
 .experience-box-container {
   display: flex;
   flex-direction: column;
@@ -21,13 +17,13 @@
 
 .experience-box {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: column;
   background-color: #444c56;
-  color: white;
+  color: #f0f0f0;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .experience-box:hover {
@@ -181,5 +177,44 @@
 
   .experience-section .notes {
     font-size: 0.6em;
+  }
+}
+@media (max-width: 515px) {
+  .experience-section {
+    padding-top: 120px;
+  }
+
+  .title-with-icon7 .experience-photo1 {
+    width: 50px;
+    height: 50px;
+  }
+
+  .title-with-icon7 .experience-photo2 {
+    width: 45px;
+    height: 30px;
+  }
+  .title-with-icon7 .experience-photo3 {
+    width: 45px;
+    height: 20px;
+  }
+  .title-with-icon7 .experience-photo4 {
+    width: 35px;
+    height: 35px;
+  }
+
+  .experience-section .designation {
+    font-size: 0.6em;
+  }
+
+  .experience-section .company {
+    font-size: 0.55em;
+  }
+
+  .experience-section .dates {
+    font-size: 0.5em;
+  }
+
+  .experience-section .notes {
+    font-size: 0.5em;
   }
 }

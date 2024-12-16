@@ -7,7 +7,6 @@ function Education() {
   return (
     <section id="education" className="education-section">
       <div className="education-container">
-        
         <div className="education-box">
           <div className="title-with-icon">
             <img src={mastersPhoto} alt="Master's Degree in Software Engineering" className="icon" />

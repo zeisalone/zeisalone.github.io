@@ -4,48 +4,50 @@ import '../styles/Skills.css';
 function Skills() {
   return (
     <section id="skills" className="skills-section1">
-      <div className="skills-container1">
-        <div className="box1">
-          <h2 className="skills-title1">Programming Languages</h2>
-          <div className="skills-list1">
-            <Skill name="Python" level="95" />
-            <Skill name="JavaScript" level="95" />
-            <Skill name="Java" level="90" />
-            <Skill name="HTML & CSS" level="90" />
-            <Skill name="Kotlin" level="80" />
-            <Skill name="SQL" level="75" />
-            <Skill name="C" level="75" />
-            <Skill name="C++" level="70" />
-            <Skill name="C#" level="70" />
-            <Skill name="Haskell" level="60" />
-          </div>
+    <div className="skills-container1">
+      <div className="box1">
+        <h2 className="skills-title1">Programming Languages</h2>
+        <div className="skills-list1">
+          <Skill name="Python" level="95" />
+          <Skill name="JavaScript" level="95" />
+          <Skill name="Java" level="90" />
+          <Skill name="HTML & CSS" level="90" />
+          <Skill name="Kotlin" level="80" />
+          <Skill name="SQL" level="75" />
+          <Skill name="C" level="75" />
+          <Skill name="C++" level="70" />
+          <Skill name="C#" level="70" />
+          <Skill name="Ruby" level="70" />
+          <Skill name="Haskell" level="60" />
         </div>
-        <div className="box1">
-          <h2 className="skills-title1">Frameworks and Other Technical Skills</h2>
-          <div className="skills-list1">
-            <Skill name="React" level="90" />
-            <Skill name="React Native" level="90" />
-            <Skill name="Android" level="85"/>
-            <Skill name="Vue" level="85" />
-            <Skill name="NodeJS" level="80" />
-            <Skill name="UML" level="80" />
-            <Skill name="Figma" level="80" />
-            <Skill name="Pygame" level="75" />
-            <Skill name="PyTorch" level="75" />
-            <Skill name="TensorFlow" level="75" />
-            <Skill name="Pandas" level="75" />
-            <Skill name="Scikit-Learn" level="75" />
-            <Skill name="Docker" level="70"/>
-            <Skill name="Postgres" level="65" />
-            <Skill name="Spark" level="65" /> 
-            <Skill name="Cloud" level="65"/>
-            <Skill name="Wildfly" level="60" />
-            <Skill name="OpenGL" level="55" />
-          </div>
-        </div>
-        
       </div>
-    </section>
+      <div className="box1">
+        <h2 className="skills-title1">Frameworks and Other Technical Skills</h2>
+        <div className="skills-list1">
+          <Skill name="React" level="90" />
+          <Skill name="React Native" level="90" />
+          <Skill name="Android" level="85"/>
+          <Skill name="Vue" level="85" />
+          <Skill name="Tailwind CSS" level="85" />
+          <Skill name="NodeJS" level="80" />
+          <Skill name="UML" level="80" />
+          <Skill name="Figma" level="80" />
+          <Skill name="Pygame" level="75" />
+          <Skill name="PyTorch" level="75" />
+          <Skill name="TensorFlow" level="75" />
+          <Skill name="Pandas" level="75" />
+          <Skill name="Scikit-Learn" level="75" />
+          <Skill name="Docker" level="70"/>
+          <Skill name="Ruby on Rails" level="70" />
+          <Skill name="Postgres" level="65" />
+          <Skill name="Spark" level="65" /> 
+          <Skill name="Cloud" level="65"/>
+          <Skill name="Wildfly" level="60" />
+          <Skill name="OpenGL" level="55" />
+        </div>
+      </div>
+    </div>
+  </section>
   );
 }
 

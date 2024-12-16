@@ -12,8 +12,6 @@ function Projects() {
   return (
     <section id="projects" className="projects-section">
       <div className="box-container">
-
-        {/* Projeto Mobile App */}
         <div className="project-box">
           <div className="project-details">
             <div className="title-with-icon9">
@@ -91,7 +89,7 @@ function Projects() {
           <div className="project-details">
             <div className="title-with-icon9">
               <img src={EngagePhoto} alt="Social Media Post Manager" className="project-photo3" />
-              <h2 className="designation">Customer Relationship Manager + Marketing Campaign Manager</h2>
+              <h2 className="designation">CRM + MCM</h2>
             </div>
             <p className="company" data-text="Personal Project">University + Company project</p>
             <div className="project-link">

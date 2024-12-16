@@ -64,6 +64,10 @@
   margin-top: 15px;
   margin-bottom: 8px;
 }
+.education-details{
+  flex: 1;
+}
+
 @media (max-width: 768px) {
   .education-section {
     padding-top: 150px;
@@ -160,6 +164,5 @@
     .education-section .notes {
       font-size: 0.5em;
     }
-  
   }
 }
