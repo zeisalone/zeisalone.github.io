@@ -69,7 +69,7 @@ function Experience() {
           <div className="experience-details">
             <div className="title-with-icon7">
               <img src={PJSVPhoto} alt="Youth Group Animator" className="experience-photo1" />
-              <h2 className="designation">Youth Group Animator</h2>
+              <h2 className="designation">Youth Group Entertainer</h2>
             </div>
             <p className="company" data-text="Pastoral de Jovens de São Vítor">Pastoral de Jovens de São Vítor</p>
             <div className="dates">
