@@ -23,9 +23,9 @@ function Experience() {
               <DateIcon className="icon" /> Oct 2024 – Ongoing
             </div>
             <ul className="notes">
-              <li>I help organize various activities, both internally for group members and for all students at Universidade do Minho.</li>
-              <li>Contributed to organizing the Engineering Olympics, a large event that brings students together for hands-on and team challenges.</li>
-              <li>Assisted in coordinating volunteering activities, strengthening IEEE's social impact within the local community and the university.</li>
+              <li>Presenter during the Olimpíadas de Engenharia 2025.</li>
+              <li>Contributed to organizing the Olimpíadas de Engenharia 2025, securing various partnerships.</li>
+              <li>Helped organize various activities for group members from volunteering to team building.</li>
               <li>This experience has been incredible for enhancing my organizational and collaboration skills and has allowed me to work closely with people who are passionate about technology and innovation.</li>
             </ul>
           </div>
