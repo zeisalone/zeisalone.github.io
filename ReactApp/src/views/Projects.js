@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/Projects.css';
 import mobileAppPhoto from '../assets/BraGuia.png';
+import beamPhoto from '../assets/BEAM.png';
 import onlineLibraryPhoto from '../assets/Coolreads.png';
 import discordBotPhoto from '../assets/Deleter.jpg';
 import EngagePhoto from '../assets/engagelogo.png';
@@ -15,12 +16,12 @@ function Projects() {
         <div className="project-box">
           <div className="project-details">
             <div className="title-with-icon9">
-              <img src={mobileAppPhoto} alt="Mobile App" className="project-photo1" />
-              <h2 className="designation">Mobile App</h2>
+              <img src={beamPhoto} alt="BEAM Web App" className="project-photo1" />
+              <h2 className="designation">BEAM Web App</h2>
             </div>
             <p className="company" data-text="University Project">University Project</p>
             <div className="project-link">
-              <a href="https://github.com/JoseBambora/Projeto-TDS" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/zeisalone/beam" target="_blank" rel="noopener noreferrer">
                 <button className="button">
                   <img src={buttonIcon} alt="Button Icon" />
                   <p className="text">Project Link</p>
@@ -28,11 +29,11 @@ function Projects() {
               </a>
             </div>
             <ul className="notes">
-              <li>Technologies - Java, JavaScript, Android, React Native, SQLite, Realm</li>
+              <li>Technologies - Phoenix Framework, Elixir, Tailwind CSS, JavaScript</li>
               <li>
-                This app, named BraGuia, was a university project where every group of students had to develop an application focused on city trails in Braga. 
-                While we shared a common data source with our classmates, we added our unique touch and implemented the features in a way that made us proud.
-                It was a rewarding experience that greatly enhanced my understanding of Android development and fueled my curiosity to explore this field further.
+                BEAM is a full-featured web application developed as part of a university research project. It was designed to deliver interactive cognitive exercises to patients and train attention.
+                The system allows therapists to create and manage custom training sessions, track patient progress, and configure tasks to the patients needs. It uses Phoenix LiveView to enable real-time interactivity and Tailwind CSS for a modern, responsive design.
+                This project solidified my expertise in full-stack development with Elixir and gave me hands-on experience building web applications.
               </li>
             </ul>
           </div>

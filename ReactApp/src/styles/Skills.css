@@ -33,76 +33,53 @@
   margin-bottom: 25px;
 }
 
-.skills-list1 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 55px;
+.skills-note {
+  font-size: 0.95em;
+  color: #050505;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  font-style: italic;
+  max-width: 800px;
+  line-height: 1.4;
 }
 
-.skill-card1 {
+.dot-skill-table {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  gap: 12px;
 }
 
-.percent1{
-  position: relative;
-  width: 150px;
-  height: 150px;
-}
-
-.percent1 svg {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  transform: rotate(-90deg);
-}
-
-.percent1 svg circle {
-  width: 100%;
-  height: 100%;
-  fill: none;
-  stroke: #191919;
-  stroke-width: 10;
-  stroke-linecap: round;
-  transform: translate(5px, 5px);
-}
-
-.percent1 svg circle:nth-child(2) {
-  stroke: #1e90ff;
-  stroke-dasharray: 440;
-  stroke-dashoffset: 440;
-  transition: stroke-dashoffset 1s ease;
-}
-
-.num1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.dot-skill-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  background-color: #525a66;
+  padding: 12px 20px;
+  border-radius: 6px;
 }
 
-.num1 h2 {
-  font-size: 40px;
-  color: white;
-  margin: 0;
+.dot-skill-name {
+  font-size: 1.1em;
+  color: #f0f0f0;
+  font-weight: 500;
 }
 
-.num1 h2 span {
-  font-size: 24px;
-  color: white;
+.dot-skill-dots {
+  display: flex;
+  gap: 15px;
 }
 
-.text1 {
-  margin-top: 10px;
-  font-size: 1.2em;
-  color: #adb5bd;
-  text-transform: uppercase;
+.dot-skill-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #1e1e1e;
+  border: 2px solid #1e90ff;
+  transition: background-color 0.3s ease;
+}
+
+.dot-skill-dot.filled {
+  background-color: #1e90ff;
 }
 
 @media (max-width: 768px) {
@@ -114,27 +91,22 @@
     font-size: 1.2em;
   }
 
-  .skills-list1 {
-    gap: 35px;
+  .dot-skill-row {
+    padding: 10px 15px;
   }
 
-  .skill-card1 {
-    margin-bottom: 20px;
+  .dot-skill-dot {
+    width: 12px;
+    height: 12px;
   }
 
-  .percent1 svg circle {
-    stroke-width: 7;
-  }
-  .num1 h2 {
-    font-size: 30px;
-  }
-
-  .num1 h2 span {
-    font-size: 18px;
-  }
-
-  .text1 {
+  .dot-skill-name {
     font-size: 1em;
+  }
+
+  .skills-note {
+    font-size: 0.85em;
+    margin-bottom: 20px;
   }
 }
 
@@ -147,48 +119,42 @@
     font-size: 1em;
   }
 
-  .skills-list1 {
-    gap: 25px;
-  }
-  .percent1 svg circle {
-    stroke-width: 7;
-  }
-  .num1 h2 {
-    font-size: 24px;
+  .dot-skill-dot {
+    width: 10px;
+    height: 10px;
   }
 
-  .num1 h2 span {
-    font-size: 16px;
+  .dot-skill-name {
+    font-size: 0.9em;
   }
 
-  .text1 {
+  .skills-note {
     font-size: 0.8em;
+    margin-left: 0;
   }
 }
+
 @media (max-width: 515px) {
   .skills-section1 {
     padding-top: 120px;
   }
 
   .skills-title1 {
-    font-size: 0.6em;
+    font-size: 0.9em;
   }
 
-  .skills-list1 {
-    gap: 20px;
-  }
-  .percent1 svg circle {
-    stroke-width: 7;
-  }
-  .num1 h2 {
-    font-size: 16px;
+  .dot-skill-dot {
+    width: 8px;
+    height: 8px;
   }
 
-  .num1 h2 span {
-    font-size: 12px;
+  .dot-skill-name {
+    font-size: 0.8em;
   }
 
-  .text1 {
-    font-size: 0.55em;
+  .skills-note {
+    font-size: 0.75em;
+    text-align: center;
+    padding: 0 5px;
   }
 }
